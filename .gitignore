@@ -1,4 +1,7 @@
 # Compiled Object files
+/Debug/
+/Release/
+/ipch/
 *.slo
 *.lo
 *.o

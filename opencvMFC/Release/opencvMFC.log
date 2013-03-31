@@ -1,0 +1,41 @@
+﻿生成启动时间为 2013/3/30 19:39:08。
+     1>项目“F:\VS2010code\opencvMFC\opencvMFC\opencvMFC.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\opencvMFC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\opencvMFC.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt opencvMFCDlg.cpp
+         opencvMFCDlg.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(109): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\CheckFace.h(109): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\LBP.h(85): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\LBP.h(116): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\LBP.h(149): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\PCA.h(31): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>f:\vs2010code\opencvmfc\opencvmfc\PCA.h(55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2010code\opencvMFC\Release\opencvMFC.exe" /INCREMENTAL:NO /NOLOGO opencv_contrib243.lib opencv_core243.lib opencv_features2d243.lib opencv_flann243.lib opencv_gpu243.lib opencv_highgui243.lib opencv_imgproc243.lib opencv_legacy243.lib opencv_ml243.lib opencv_objdetect243.lib opencv_ts243.lib opencv_video243.lib /MANIFEST /ManifestFile:"Release\opencvMFC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS2010code\opencvMFC\Release\opencvMFC.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2010code\opencvMFC\Release\opencvMFC.lib" /MACHINE:X86 Release\opencvMFC.res
+         Release\opencvMFC.obj
+         Release\opencvMFCDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         opencvMFC.vcxproj -> F:\VS2010code\opencvMFC\Release\opencvMFC.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\VS2010code\opencvMFC\Release\opencvMFC.exe;#1" /manifest Release\opencvMFC.exe.intermediate.manifest "D:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\opencvMFC.unsuccessfulbuild”。
+         正在对“Release\opencvMFC.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VS2010code\opencvMFC\opencvMFC\opencvMFC.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.22
